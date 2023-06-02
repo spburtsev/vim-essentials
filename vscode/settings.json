@@ -1,0 +1,66 @@
+{
+  "editor.lineNumbers": "relative",
+  "vim.leader": "<space>",
+  "vim.easymotion": true,
+  "vim.sneak": true,
+  "vim.useSystemClipboard": true,
+  "vim.hlsearch": true,
+  "vim.useCtrlKeys": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "w"],
+      "commands": ["workbench.action.files.save"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["editor.action.showHover"]
+    },
+    // Go to definition
+    {
+      "before": ["<leader>", "g", "d"],
+      "commands": ["editor.action.goToDeclaration"]
+    },
+    {
+      "before": ["<leader>", "g", "b"],
+      "commands": ["workbench.action.navigateBack"]
+    },
+    // Save and close current tab
+    {
+      "before": ["Q"],
+      "commands": [
+        "workbench.action.files.save",
+        "workbench.action.closeActiveEditor"
+      ]
+    },
+    // Rename a tag
+    {
+      "before": ["<leader>", "r", "t"],
+      "commands": ["editor.action.rename"]
+    },
+    // Toggle file tree
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    // Focus file tree
+    {
+      "before": ["<leader>", "f", "t"],
+      "commands": ["workbench.files.action.focusFilesExplorer"]
+    },
+    // Close current tab
+    {
+      "before": ["Q"],
+      "commands": ["workbench.action.closeActiveEditor"]
+    }
+  ],
+  "vim.handleKeys": {
+    "<C-d>": true,
+    "<C-s>": false,
+    "<C-z>": false,
+    "<C-f>": false,
+    "f12": false,
+    "<C-a>": false,
+    "<C-j>": false,
+    "<C-k>": false
+  }
+}

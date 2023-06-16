@@ -1,2 +1,2 @@
 # vim-essentials
-Essential configuration files for nvim, ideavim, and vim for vscode
+Essential configuration files for neovim, ideavim, and vim for vscode

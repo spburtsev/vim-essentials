@@ -30,7 +30,6 @@ map <leader>z <Action>(ToggleDistractionFreeMode)
 map <leader>Z <Action>(ToggleZenMode)
 map <leader>b <Action>(ToggleLineBreakpoint)
 map <leader>md <Action>(CreateRunConfiguration)
-nmap <leader>gb <Action>(Back)
 nmap <leader>gd <Action>(GotoDeclaration)
 nmap <leader>ls <Action>(ShowErrorDescription)
 

@@ -12,13 +12,10 @@
   "workbench.statusBar.visible": false,
   "editor.minimap.enabled": false,
   "breadcrumbs.enabled": false,
-  "workbench.iconTheme": "material-icon-theme",
   "update.showReleaseNotes": false,
-  "workbench.activityBar.visible": false,
   "zenMode.hideLineNumbers": false,
-  "zenMode.hideTabs": false,
   "editor.lineNumbers": "relative",
-
+  "workbench.sideBar.location": "right",
   "vim.leader": "<Space>",
   "vim.hlsearch": true,
   "vim.normalModeKeyBindingsNonRecursive": [
@@ -84,7 +81,6 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "go.toolsManagement.autoUpdate": true,
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -92,3 +88,4 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
+

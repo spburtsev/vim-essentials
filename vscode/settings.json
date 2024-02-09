@@ -3,7 +3,7 @@
 {
   "editor.formatOnSave": true,
   "editor.suggest.insertMode": "replace",
-  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontFamily": "JetBrains Mono NL",
   "editor.linkedEditing": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "window.zoomLevel": 0.5,
